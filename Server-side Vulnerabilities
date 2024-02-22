@@ -10,11 +10,11 @@ https://insecure-website.com/robots.txt
 
 ## Parameter-based access control methods: 
 Some applications determine the user's access rights or role at login, and then store this information in a user-controllable location. This could be:
--	A hidden field.
--	A cookie. Could be found by going pressing F12 in browser>Application> under Admin/Root> edit> value from false to true and refresh site.
--	A preset query string parameter.
-- https://insecure-website.com/login/home.jsp?admin=true
-- https://insecure-website.com/login/home.jsp?role=1
+	A hidden field.
+	A cookie. Could be found by going pressing F12 in browser>Application> under Admin/Root> edit> value from false to true and refresh site.
+  A preset query string parameter.
+  https://insecure-website.com/login/home.jsp?admin=true
+  https://insecure-website.com/login/home.jsp?role=1
 
 ## Horizontal privilege escalation:
 Horizontal privilege escalation attacks may use similar types of exploit methods to vertical privilege escalation. For example, a user might access their own account page using the following URL:
